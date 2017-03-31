@@ -1,0 +1,39 @@
+<div class="heading-info">
+  <h1>NBA Production Contribution Per Game</h1>
+  <h2 id="h20">Contribution Per Game (CPG): This refers to the players overall involvement
+  per game in the form of field goals made. For example: James Harden's CPG is 60.
+  This means that between all of his rebounds, assists, turnovers,
+  etc., he is ultimately involved in about 60 points per game.</h2>
+  <h2 id="h21">*Statistics don't represent the players actual numbers per game.</h2>
+</div>
+<section>
+  <table>
+    <tr class="{{player.team}}" ng-repeat="player in players | orderBy:ob:true track by $index">
+      <div class="table-header">
+        <span ng-click="changeOrderBy('cont')">RANK</span>
+        <span ng-click="changeOrderBy('name')">PLAYER</span>
+        <span ng-click="changeOrderBy('team')">TEAM</span>
+        <span ng-click="changeOrderBy('cont')">CPG</span>
+        <span ng-click="changeOrderBy('cPts')">PTS</span>
+        <span ng-click="changeOrderBy('cReb')">REB*</span>
+        <span ng-click="changeOrderBy('cAst')">AST*</span>
+        <span ng-click="changeOrderBy('cTov')">TOV*</span>
+        <span ng-click="changeOrderBy('cStl')">STL*</span>
+        <span ng-click="changeOrderBy('cBlk')">BLK*</span>
+        <span ng-click="changeOrderBy('cPf')">PF*</span>
+      </div>
+      <td ng-if="$index === 0 && ob === 'cont'">MVP</td>
+      <td ng-if="$index !== 0 || ob !== 'cont'">{{$index+1}}</td>
+      <td>{{player.name}}</td>
+      <td>{{player.team}}</td>
+      <td>{{player.cont | currency:""}}</td>
+      <td>{{player.cPts | currency:""}}</td>
+      <td>{{player.cReb | currency:""}}</td>
+      <td>{{player.cAst | currency:""}}</td>
+      <td>{{player.cTov | currency:""}}</td>
+      <td>{{player.cStl | currency:""}}</td>
+      <td>{{player.cBlk | currency:""}}</td>
+      <td>{{player.cPf | currency:""}}</td>
+    </tr>
+  </table>
+</section>

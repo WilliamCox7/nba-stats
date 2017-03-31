@@ -1,0 +1,282 @@
+body {
+  font-family: SegoeUI, Segoe UI;
+  font-weight: lighter;
+  background: gainsboro;
+}
+
+section {
+  margin-top: 239px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+}
+
+.heading-info {
+  width: 1084px;
+  background: gainsboro;
+  margin: auto;
+  right: 0;
+  position: fixed;
+  left: 0;
+  height: 224px;
+  margin-top: -240px;
+  box-shadow: 0px 25px 33px -28px #000000;
+}
+
+h1 {
+  padding: 30px;
+  color: slategray;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+h2 {
+  color: slategray;
+  font-weight: normal;
+}
+
+#h20 {
+  padding: 0px 30px;
+}
+
+#h21 {
+  padding: 10px 30px 0px 30px;
+}
+
+.table-header {
+  margin-top: 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  box-shadow: 1px 1px 5px #969696;
+}
+
+span {
+  width: 80px;
+  text-align: center;
+  background: #d11345;
+  color: white;
+  font-weight: bold;
+  padding: 10px 0px;
+  border-left: solid 6px white;
+  border-top: solid 6px white;
+  border-bottom: solid 6px white;
+}
+
+span:nth-child(2) {
+  width: 220px;
+}
+
+span:nth-child(11) {
+  border-right: solid 6px white;
+  min-width: 86px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+table {
+  margin-bottom: 100px;
+  box-shadow: 1px 1px 5px #969696;
+}
+
+tr:nth-child(even) {
+  background: gainsboro;
+}
+
+tr:nth-child(odd) {
+  background: slategray;
+  color: white;
+}
+
+th {
+  background: #d11345;
+  color: white;
+  font-weight: bold;
+  padding: 10px 18px;
+}
+
+th, td {
+  border: solid 6px white;
+  box-shadow: 3px 3px 5px #969696;
+}
+
+td {
+  text-align: center;
+  font-weight: normal;
+  padding: 8px 18px;
+}
+
+td:nth-child(1) {
+  min-width: 80px;
+}
+
+td:nth-child(n+3) {
+  min-width: 80px;
+}
+
+td:nth-child(2) {
+  text-align: left;
+  width: 220px;
+}
+
+/*.HOU {
+  background: #d11345;
+  color: #d11345;
+}
+
+.CLE {
+  background: #860038;
+  color: #fdba2b;
+}
+
+.BOS {
+  background: #008248;
+  color: white;
+}
+
+.WAS {
+  background: #133056;
+  color: #ce414a;
+}
+
+.TOR {
+  background: #c02632;
+}
+
+.ATL {
+  background: #e13a3e;
+  color: white;
+}
+
+.MIL {
+  background: #2b5235;
+  color: #dfcaa2;
+}
+
+.MIA {
+  background: #bf2f38;
+  color: #f59814;
+}
+
+.IND {
+  background: #ffc526;
+  color: #002d62;
+}
+
+.CHI {
+  background: #d2153a;
+}
+
+.DET {
+  background: #ed174c;
+  color: #0468af;
+}
+
+.CHA {
+  background: #00748d;
+  color: #201646;
+}
+
+.PHI {
+  background: #ed174f;
+  color: #0067b1;
+}
+
+.NYK {
+  background: #f48227;
+  color: #0169b4;
+}
+
+.ORL {
+  background: #0473bc;
+  color: #0c1e24;
+}
+
+.BKN {
+  background: #000000;
+  color: white;
+}
+
+.GSW {
+  background: #006bb7;
+  color: #fdb827;
+}
+
+.SAS {
+  background: #c3cdd3;
+  color: black;
+}
+
+.UTA {
+  background: #00471b;
+  color: #f8b34a;
+}
+
+.LAC {
+  background: #006bb6;
+  color: #ee2456;
+}
+
+.OKC {
+  background: #0a7ec2;
+  color: #ff795e;
+}
+
+.MEM {
+  background: #23375b;
+  color: #6189b9;
+}
+
+.DEN {
+  background: #fdb827;
+  color: #002d62;
+}
+
+.POR {
+  background: #cb363a;
+  color: black;
+}
+
+.NOP {
+  background: #b5985a;
+  color: #002a5c;
+}
+
+.DAL {
+  background: #1061ac;
+  color: #c4ced4;
+}
+
+.MIN {
+  background: #0fa94e;
+  color: #055384;
+}
+
+.SAC {
+  background: #393d93;
+  color: #a8a9ac;
+}
+
+.PHX {
+  background: #f9a03a;
+  color: #e46334;
+}
+
+.LAL {
+  background: #552582;
+  color: #fdb827;
+}*/
